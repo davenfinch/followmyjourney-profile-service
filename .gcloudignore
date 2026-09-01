@@ -1,0 +1,8 @@
+# This file specifies files that are *not* uploaded to Google Cloud Platform when using gcloud.
+
+.git/
+.gitignore
+README.md
+**/*.md
+**/*.puml
+**/node_modules

@@ -1,0 +1,6 @@
+server:
+  port: 8081
+  log_level: info
+
+store:
+  type: memory

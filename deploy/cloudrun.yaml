@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: followmyjourney-profile-service
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/PROJECT-ID/followmyjourney-profile-service:latest
+          env:
+            - name: PORT
+              value: "8081"
