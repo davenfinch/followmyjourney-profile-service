@@ -1,5 +1,5 @@
 module github.com/davenfinch/followmyjourney-profile-service
 
-go 1.27
+go 1.22
 
-require github.com/gorilla/mux v1.8.1 // indirect
+require github.com/gorilla/mux v1.8.1
